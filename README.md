@@ -3,21 +3,21 @@
 ## Getting Started
 
 ### Prerequisites
-* Have JDK 8 and JRE 8 installed:
-  * [Oracle JDK 8 and JRE 8 Installation](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
-  * (Alternatively) [OpenJDK 8 Installation](https://openjdk.java.net/install/)
-* Ensure successful installation:
-  * In a terminal / command prompt: both `java -version` and `javac -version` should show version 1.8
-  * If not, ensure that the location of the Java SDK is in your system PATH:
-    * [Windows](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#BABGDJFH)
-    * OS X: 
-      1. Set `JAVA_HOME` environment variable:
-          * `export JAVA_HOME=$(/usr/libexec/java_home)`
+1. Have JDK 8 and JRE 8 installed:
+    * [Oracle JDK 8 and JRE 8 Installation](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
+    * (Alternatively) [OpenJDK 8 Installation](https://openjdk.java.net/install/)
+2. Ensure successful installation:
+    * In a terminal / command prompt: both `java -version` and `javac -version` should show version 1.8
+    * If not, ensure that the location of the Java SDK is in your system PATH:
+      * [Windows](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#BABGDJFH)
+      * OS X: 
+        * Set `JAVA_HOME` environment variable:
+        i. `export JAVA_HOME=$(/usr/libexec/java_home)`
           * Or on older versions of OS X: `export JAVA_HOME=/path/to/java_installation`
-      2. `export PATH=$PATH:$JAVA_HOME`
+        ii. `export PATH=$PATH:$JAVA_HOME`
     * Linux:
-      1. `export JAVA_HOME=/path/to/java_installation`
-      2. `export PATH=$PATH:$JAVA_HOME`
+      i. `export JAVA_HOME=/path/to/java_installation`
+      ii. `export PATH=$PATH:$JAVA_HOME`
 
 ## Build and run
 1. Clone the repo: `git clone https://github.com/justinkusz/CalculateUVT.git`
