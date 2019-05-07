@@ -12,9 +12,9 @@
       * [Windows](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#BABGDJFH)
       * OS X: 
         * Set `JAVA_HOME` environment variable:
-        i. `export JAVA_HOME=$(/usr/libexec/java_home)`
+          i. `export JAVA_HOME=$(/usr/libexec/java_home)`
           * Or on older versions of OS X: `export JAVA_HOME=/path/to/java_installation`
-        ii. `export PATH=$PATH:$JAVA_HOME`
+          ii. `export PATH=$PATH:$JAVA_HOME`
     * Linux:
       i. `export JAVA_HOME=/path/to/java_installation`
       ii. `export PATH=$PATH:$JAVA_HOME`
