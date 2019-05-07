@@ -3,33 +3,44 @@
 ## Getting Started
 
 ### Prerequisites
-1. Have JDK 8 and JRE 8 installed:
+1. **Have JDK 8 and JRE 8 installed**:
     * [Oracle JDK 8 and JRE 8 Installation](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
     * (Alternatively) [OpenJDK 8 Installation](https://openjdk.java.net/install/)
-2. Ensure successful installation:
-    * In a terminal / command prompt: both `java -version` and `javac -version` should show version 1.8
-    * If not, ensure that the location of the Java SDK is in your system PATH:
-      * [Windows](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#BABGDJFH)
-      * OS X: 
-        * Set `JAVA_HOME` environment variable:
+2. **Ensure successful installation**:
+    * In a terminal / command prompt: both `java -version` and `javac -version` should show **version 1.8**
+    * If not, **ensure that the location of the Java SDK is in your system PATH**:
+      * [**Windows instructions**](https://docs.oracle.com/javase/8/docs/technotes/guides/install/windows_jdk_install.html#BABGDJFH)
+      * **OS X**: 
 
-          i. `export JAVA_HOME=$(/usr/libexec/java_home)`
-          * Or on older versions of OS X: `export JAVA_HOME=/path/to/java_installation`
+        i. Set `JAVA_HOME` environment variable:
 
-          ii. `export PATH=$PATH:$JAVA_HOME`
-    * Linux:
+          `export JAVA_HOME=$(/usr/libexec/java_home)`
+        
+          Or on older versions of OS X:
+          
+          `export JAVA_HOME=/path/to/java_installation`
 
-      i. `export JAVA_HOME=/path/to/java_installation`
+        ii. Add `JAVA_HOME` to your path:
+        
+        `export PATH=$PATH:$JAVA_HOME`
       
-      ii. `export PATH=$PATH:$JAVA_HOME`
+      * **Linux**:
+
+        i. Set `JAVA_HOME` environment variable:
+        
+        `export JAVA_HOME=/path/to/java_installation`
+
+        ii. Add `JAVA_HOME` to your path:
+        
+        `export PATH=$PATH:$JAVA_HOME`
 
 ## Build and run
-1. Clone the repo: `git clone https://github.com/justinkusz/CalculateUVT.git`
-2. Compile the `.java` file `CalculateUVT.java`:
+1. **Clone the repo**: `git clone https://github.com/justinkusz/CalculateUVT.git`
+2. **Compile** the `.java` file `CalculateUVT.java`:
     ```
     javac CalculateUVT.java
     ```
-3. Run the program.
+3. **Run** the program.
 
     The program takes its **input as a single line of comma-separated fragments** in the form: 
     
@@ -39,7 +50,12 @@
 
     `UVT for given fragments: 0:18:39.752 (1119752 ms)`
 
-    The fragments are **read from standard input**. This can be done by **supplying the input manually**, **redirecting from a file**, or by **piping the output of another command** to the program. For example,
+    The fragments are **read from standard input**. This can be done by 
+      * **supplying the input manually**, 
+      * **redirecting from a file**, or 
+      * by **piping the output of another command** to the program.
+      
+    For example,
 
     **Manually**:
 
@@ -92,7 +108,7 @@
       true
       ```
 
-      If all tests defined in `TestCalculateUVT.java` **successfully pass**, the `TestRunner` will simply return `true`.
+      **If all tests** defined in `TestCalculateUVT.java` **successfully pass**, the `TestRunner` will simply return `true`.
 
       If any of the **tests fail**, `TestRunner` will return `false`, along with some details of the test(s) that failed. For example:
 
